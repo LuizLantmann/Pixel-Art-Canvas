@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace, sans-serif;
+}
+body {
+  text-align: center;
+  margin: 25px;
+  background-color: rgb(40,0,0);
+  background-image: linear-gradient(rgb(40,0,0), black);
+  height: 100vh;
+}
+
+#title {
+color: #ff115d;
+}
+
+#color-palette {
+  margin-bottom: 10px;
+}
+
+.color {  
+  display: inline-block;
+  border: solid 1px black;
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 25%;
+}
+
+#pixel-board {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: rgb(30,0,0);
+  border: double #c5134b;
+  box-shadow: 5px 5px 0px 0px #ff115c2d;
+}
+
+.pixel {
+  background-color: white;
+  display: table-cell;
+  border: solid 1px black;
+  height: 40px;
+  width: 40px;
+}
+
+button {
+  color: #05d9e8;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  margin:10px 0 10px 0;
+  border-radius: 12px;
+  box-shadow: 5px 5px 0px 0px #05d9e82d;
+  font: 700 12px sans-serif;
+  text-transform: uppercase;
+}
+
+button:hover{
+  border: 1.5px solid #05d9e8;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 12px;
+}
+
+button, input {
+  border: double #c5134b;
+}
+
+.selected {
+  box-shadow: 5px 5px 0px 0px #ff115c2d;
+}
